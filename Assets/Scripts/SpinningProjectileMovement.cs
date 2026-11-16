@@ -26,6 +26,10 @@ public class SpinningProjectileMovement : MonoBehaviour
             Destroy(gameObject);
          
         }
+        else if (other.CompareTag("Barrier"))
+        {
+            Destroy(gameObject);
+        }
        
     }
 }
