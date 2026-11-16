@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 68acfacc6a4d2af4ca4b9282b30b8d83
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - alienPrefab: {fileID: 3819298131405794828, guid: 49244ded52a6d8c4d89865109b01616e, type: 3}
+  - alien2Prefab: {fileID: 2989291619900459683, guid: 2c08bd3b41be1c542aeea482d1759467, type: 3}
+  - greenAlienGroup: {instanceID: 0}
+  - pinkAlienGroup: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
