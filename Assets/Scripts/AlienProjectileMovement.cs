@@ -1,9 +1,9 @@
+
 using UnityEngine;
 
 public class AlienProjectileMovement : MonoBehaviour
 {
     public float projectileSpeed = 5f;
-
     private Rigidbody2D rb;
 
     void Awake()
@@ -25,16 +25,18 @@ public class AlienProjectileMovement : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Barrier"))
         {
             Destroy(gameObject);
         }
+
         if (collision.gameObject.CompareTag("Player"))
         {
+            collision.gameObject.GetComponent<PlayerHit>().TakeHit();
             Destroy(gameObject);
-            Debug.Log("Player Was Hit!");
         }
     }
 }
