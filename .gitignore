@@ -1,4 +1,5 @@
 # Unity generated files
+.utmp/
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -7,12 +8,63 @@
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
 [Mm]emoryCaptures/
+[Rr]ecordings/
 
 # IDE files
 .vs/
-.vscode/
 .gradle/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.DotSettings.user
 
 # Operating system files
 .DS_Store
 Thumbs.db
+
+# Unity generated files
+*.log
+*.blend1
+*.blend1.meta
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+mono_crash.*
+
+# Builds and packages
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+
+# Other Unity generated files
+ExportedObj/
+crashlytics-build.properties
+InitTestScene*.unity*
+/ServerData
+/[Aa]ssets/StreamingAssets/aa*
+/[Aa]ssets/AddressableAssetsData/link.xml*
+/[Aa]ssets/Addressables_Temp*
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+/UIElementsSchema/
+/[Aa]ssets/[Ss]ceneDependencyCache*
