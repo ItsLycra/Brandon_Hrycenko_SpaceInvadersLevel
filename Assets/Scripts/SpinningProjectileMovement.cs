@@ -16,5 +16,16 @@ public class SpinningProjectileMovement : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    void OnTriggerEnter2D(Collider2D other)
+    {
 
+       
+        if (other.CompareTag("Alien"))
+        {
+            Destroy(other.gameObject);
+            Destroy(gameObject);
+         
+        }
+       
+    }
 }
